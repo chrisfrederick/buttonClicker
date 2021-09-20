@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 70%; 
+    height: 800px;
+    margin: auto;
+}
+
+#navBar{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    background-color:grey;
+    width: 100%;
+    height: 100px;
+}
+
+#title{
+    color: white;
+    margin-top: 20px;
+}
+
+#searchBar{
+    margin-top: 32px;
+}
+
+#loginButton{
+    margin-top: 32px;
+}
+#loginButton button{
+    background-color: blue;
+    color: white;
+}
+
+#content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftColumn{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.description{
+    display: flex;
+    margin-top: 5%;
+    border: black solid 3px;
+}
+
+.description button{
+    background-color: yellowgreen;
+}
+
+.leftDescription{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5%;
+}
+
+#rightDescription{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    justify-content: center;
+}
+
+#rightColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#description2{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: center;
+    margin-top: 5%;
+    border: black solid 3px;
+}
+
+#addDeffbutton{
+    align-content: center;
+    padding: 10px;
+}
+
+#addDeffbutton button{
+    background-color: green;
+}
+
+#deff1{
+    padding: 10px;
+}
+
+
+

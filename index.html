@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div id="navBar">
+            <div id="title">
+                <h1>Dojonary</h1>
+            </div>
+            <div id="searchBar">
+                <input type="text" placeholder="Search.." name="search">
+            </div>
+            <div id="loginButton">
+                <button onclick="logOut(this)">Login</button>
+            </div>
+        </div>
+        <div id="content">
+            <div id="leftColumn">
+                <div class="description">
+                    <div class="leftDescription">
+                        <div id="descTitle">
+                            <h1>Ninja</h1>
+                        </div>
+                        <div id="wordType">
+                            <h3>noun</h3>
+                        </div>
+                        <div id="plural">
+                            <h3>Plural: ninjas</h3>
+                        </div>
+                        <div id="likeButton">
+                            <button onclick="alert('Ninja was liked')">0 Likes</button>
+                        </div>
+                    </div>
+                    <div id="rightDescription">
+                        <div id="wordDescription">
+                            <h4>A practitioner skilled in the
+                                <a href="$">Japanese</a> art of 
+                                <a href="#">ninjitsu</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <div class="leftDescription">
+                        <div id="descTitle">
+                            <h1>Ninja</h1>
+                        </div>
+                        <div id="wordType">
+                            <h3>noun</h3>
+                        </div>
+                        <div id="plural">
+                            <h3>Plural: ninjas</h3>
+                        </div>
+                        <div id="likeButton">
+                            <button onclick="alert('Ninja was liked')">0 Likes</button>
+                        </div>
+                    </div>
+                    <div id="rightDescription">
+                        <div id="wordDescription">
+                            <h4>A <a href="#">programmer</a> who breaks down projects with 
+                                <a href="#">zen</a>-like focus. 
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="rightColumn">
+                <div id="description2">
+                    <div id="deff1">
+                        <h2>Dojinary is defined by YOU</h2>
+                    </div>
+                    <div id="addDeffbutton">
+                        <button onclick="hide(this)">Add Definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
